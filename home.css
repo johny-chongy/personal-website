@@ -6,7 +6,6 @@ header {
     opacity: 90%;
     margin: 0px;
     padding: 0px;
-    padding-bottom: 5px;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
     overflow: hidden;
@@ -16,8 +15,9 @@ ul {
     width: 110%px;
 }
 li {
-    border-right: 1px solid black;
     display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 li a {
@@ -25,11 +25,16 @@ li a {
     text-decoration: none;
     color: black;
     font-size: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 
+li a:hover {
+    background-color:rgb(195, 223, 248);
+}
 
 /*
 Home Page
