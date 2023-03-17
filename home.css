@@ -1,0 +1,53 @@
+header {
+    background-color: aliceblue;
+    opacity: 90%;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    overflow: hidden;
+
+}
+ul {
+    width: 110%px;
+}
+li {
+    border-right: 1px solid black;
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+#right_tab {
+    float: right;
+    border-right: none;
+    margin-right: 0px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#portrait {
+    align-self: center;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+#tag {
+    align-self: center;
+}
