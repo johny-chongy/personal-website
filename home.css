@@ -1,3 +1,6 @@
+/*
+Navigation Bar
+*/
 header {
     background-color: aliceblue;
     opacity: 90%;
@@ -27,6 +30,10 @@ li a {
 
 }
 
+
+/*
+Home Page
+*/
 #right_tab {
     float: right;
     border-right: none;
@@ -54,4 +61,39 @@ li a {
     width: 50%;
     align-self: center;
     margin-left: 10px;
+}
+
+/*
+Contact Page
+*/
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-top 25px;
+}
+
+#contact_container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 200px;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 25px;
+}
+
+figcaption {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+figcaption a {
+    text-decoration: none;
 }
