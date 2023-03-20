@@ -25,10 +25,10 @@ li a {
     text-decoration: none;
     color: black;
     font-size: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
 
