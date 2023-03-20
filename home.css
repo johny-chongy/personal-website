@@ -71,7 +71,9 @@ Home Page
 /*
 Contact Page
 */
-
+#contactbody {
+    background-color: rgb(215, 193, 165);
+}
 h1 {
     text-align: center;
     font-size: 100px;
@@ -112,9 +114,9 @@ About Page
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(215, 193, 165);
 }
-#abouttitle {
+#aboutbody {
+    background-color: rgb(215, 193, 165);
 }
 
 
@@ -127,6 +129,8 @@ About Page
     align-self: center;
     width: 900px;
     font-size: 18px;
+    padding: 15px;
+    background-color: aliceblue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
