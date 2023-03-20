@@ -101,6 +101,7 @@ figcaption {
 
 figcaption a {
     text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*
@@ -111,6 +112,7 @@ About Page
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: rgb(215, 193, 165);
 }
 #abouttitle {
 }
@@ -125,6 +127,7 @@ About Page
     align-self: center;
     width: 900px;
     font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
