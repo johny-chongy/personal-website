@@ -102,3 +102,43 @@ figcaption {
 figcaption a {
     text-decoration: none;
 }
+
+/*
+About Page
+*/
+
+.aboutboxer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#abouttitle {
+}
+
+
+#about_pic {
+    align-self: center;
+    margin-top: -50px;
+}
+
+#aboutmetxt {
+    align-self: center;
+    width: 900px;
+    font-size: 18px;
+}
+
+
+
+
+
+.bottomabout {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.bottom {
+    padding: 25px;
+}
+
+
